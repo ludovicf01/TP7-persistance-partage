@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TP7 persistance et partage</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="btnListe">Liste</string>
+    <string name="btnAdd">Inséré</string>
+    <string name="btnOk">OK</string>
+    <string name="TextN">Nom</string>
+    <string name="TextP">Prénom</string>
+    <string name="TextC">Courriel</string>
+</resources>

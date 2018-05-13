@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cnam.smb116.tp7persistanceetpartage.MainActivity">
+
+    <EditText
+        android:id="@+id/editTextN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/TextN"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/editTextP"
+        android:layout_alignStart="@+id/editTextP" />
+
+    <EditText
+        android:id="@+id/editTextP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/TextP"
+        android:layout_below="@+id/editTextN"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editTextC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/TextC"
+        android:layout_below="@+id/editTextP"
+        android:layout_alignLeft="@+id/editTextP"
+        android:layout_alignStart="@+id/editTextP"
+        android:layout_marginTop="27dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextC"
+        android:onClick="onClickOk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/btnOk" />
+</RelativeLayout>
