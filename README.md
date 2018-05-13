@@ -1,4 +1,4 @@
-Examen 1er semestre 2017 du cours CNAM C/C++
+TP 2eme semestre 2017 du cours CNAM Conception et developpement pour systemes mobiles
 ===========
 Ce dépôt à été créer pour répondre à un TP pour l'obtention du module SMB116 : Conception et developpement pour systemes mobiles
 
